@@ -9,7 +9,7 @@ html
     if x 
       h3 #{x} #{calculation} #{y} = #{calc}
     form(method='post', action='/calc')
-      
+      textarea(name= 'blah')      
       input(type='text', name='x', placeholder='x', autofocus=true)
       select(name='calculation')
          option +

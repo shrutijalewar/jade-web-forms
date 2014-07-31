@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Boxes
+    link(rel='stylesheet',href='/css/boxes.css')
+   body
+    h1 Boxes
+    form(method='post', action='/boxes')
+      label No of Boxes
+      input(type='text', name='n', placeholder='-', autofocus=true)
+      label width-range
+      input(type='text', name='width', placeholder='x-y')
+      label height-range
+      input(type='text', name='height', placeholder='x-y')
+      textarea(name= 'colors') green, blue, red, pink, lightpink, lightgreen, lightblue, yellow, purple, orange, light orange
+      button generate boxes
+

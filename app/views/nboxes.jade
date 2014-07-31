@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Boxes
+    link(rel='stylesheet',href='/css/boxes.css')
+   body
+    h1 Boxes
+    h2 
+       a(href='/boxes') click here to go back
+
+    while n
+      - n--
+      - console.log(n)
+      - var i = Math.floor(Math.random()*colors.length)
+      - var c = colors[i]
+      - var a = Math.floor(Math.random() * (h[1] - h[0]+ 1))+ h[0]
+      - var b = Math.floor(Math.random() * (w[1] - w[0]+ 1))+ w[0]
+      .color(style='background-color:#{c}; width:#{b}px; height:#{a}px; border:1px solid')
+

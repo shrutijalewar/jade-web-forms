@@ -1,0 +1,17 @@
+
+input[type=text]{
+color: black;
+background-color: lightyellow;
+border: 1px solid;
+padding:10px;
+}
+
+textarea{
+width:500px;
+background-color:lightyellow;
+border: 1px solid;
+}
+.color{
+float: left;
+}
+

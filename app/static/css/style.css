@@ -1,0 +1,13 @@
+input[type=text]{
+color: red;
+background-color: lightyellow;
+border: 1px solid;
+padding:10px;
+}
+
+textarea{
+width:100px;
+color:lightgreen;
+}
+
+
